@@ -17,4 +17,12 @@
 9. Run `vagrant up` from within /host
 10. Check the new host has launched and registered in the Rancher server
 
-**Note:** To persist the environment without issues pause both the server and host nodes from within Virtualbox prior to PC or laptop suspend and/or shutdown/reboot.
+**Note:** To persist the environment prior to PC or laptop suspend and/or shutdown/reboot:
+
+Either..
+
+- Pause both the server and host nodes from within the Virtualbox UI
+
+Or..
+
+- (Recommended) Issue a `vagrant suspend` for both /server and /host
