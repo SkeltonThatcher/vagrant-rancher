@@ -1,4 +1,4 @@
-# Vagrant files to create a localised Rancher dev environment
+# Vagrant files to create a Rancher server and host environment for local development
 
 ## Requirements
 * Vagrant
