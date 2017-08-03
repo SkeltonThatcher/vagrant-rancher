@@ -4,6 +4,9 @@
 * Vagrant
 * Virtualbox
 
+## Tested using the following hosts
+* Ubuntu 17.04 (Desktop)
+
 ## Usage Instructions
 
 1. Clone the repo
