@@ -6,7 +6,7 @@
 
 ## Tested using the following hosts
 * Ubuntu 17.04 (Desktop)
-* macOS 10.12.6 (Desktop)
+* macOS Sierra 10.12.6 (Desktop)
 
 ## Usage Instructions
 
