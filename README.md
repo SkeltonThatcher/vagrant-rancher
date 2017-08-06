@@ -20,7 +20,7 @@
 9. Run `vagrant up` from within /host
 10. Check the new host has launched and registered in the Rancher server
 
-**Note:** To persist the environment prior to PC or laptop suspend and/or shutdown/reboot:
+**Note 1:** To persist the environment prior to PC or laptop suspend and/or shutdown/reboot:
 
 Either..
 
@@ -29,3 +29,7 @@ Either..
 Or..
 
 - (Recommended) Issue a `vagrant suspend` for both /server and /host
+
+**Note 2:** Guest to Host time sync:
+
+To keep the guest time in sync with the host ensure that Virtualbox Guest Additions are installed and configured.
