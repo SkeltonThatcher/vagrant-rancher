@@ -1,7 +1,7 @@
 # Vagrant files to create a Rancher server and host environment for local development
 
 ## Requirements
-* Vagrant
+* Vagrant (with Virtualbox plugin)
 * Virtualbox
 
 ## Tested using the following hosts
