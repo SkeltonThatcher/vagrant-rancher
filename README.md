@@ -29,8 +29,8 @@ Either..
 
 Or..
 
-- (Recommended) Issue a `vagrant suspend` for both /server and /host
+- (Recommended) Issue a `vagrant suspend` for both /server and /host, followed by a `vagrant resume`.
 
 **Note 2:** Guest to Host time sync:
 
-To keep the guest time in sync with the host after a suspend/resume, ensure that Virtualbox Guest Additions are installed and update the locale string for /usr/share/zoneinfo in the Vagrantfile for server and host (currently set to /Europe/London).
+To keep the guest time in sync with the host after a suspend/resume, ensure that Virtualbox Guest Additions are installed and update the locale string for `/usr/share/zoneinfo` in the Vagrantfile(s) for both server and host (This is currently set to `/Europe/London`).
