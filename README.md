@@ -33,4 +33,4 @@ Or..
 
 **Note 2:** Guest to Host time sync:
 
-To keep the guest time in sync with the host ensure that Virtualbox Guest Additions are installed and configured.
+To keep the guest time in sync with the host after a suspend/resume, ensure that Virtualbox Guest Additions are installed and and update the locale string for /usr/share/zoneinfo in the Vagrantfile for server and host (currently set to /Europe/London).
